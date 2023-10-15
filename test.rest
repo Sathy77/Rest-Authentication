@@ -4,3 +4,10 @@ Content-Type: application/json
 { "username": "sokhina", "email": "sokhina@sokhina.com", "password": "sokhina", "super_user": true}
 
 ###
+
+POST http://127.0.0.1:8000/api/userauth/login/
+Content-Type: application/json
+
+{"username": "sokhina", "password": "sokhina"}
+
+###
