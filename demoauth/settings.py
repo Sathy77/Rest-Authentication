@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'knox',
 
     'userauth.apps.UserauthConfig',
+    'teacher.apps.TeacherConfig'
 ]
 
 MIDDLEWARE = [

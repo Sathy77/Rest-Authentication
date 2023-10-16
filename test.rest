@@ -11,3 +11,19 @@ Content-Type: application/json
 {"username": "sokhina", "password": "sokhina"}
 
 ###
+
+POST http://127.0.0.1:8000/api/userauth/logout/ 
+Content-Type: application/json 
+Authorization: Token 365a45330a0b9bb3d52e23fb140f3c7fe71bad221f20df6bb3d271a66e754f9c
+
+{}
+
+###
+
+GET http://127.0.0.1:8000/api/teacher/get-teachers/
+Content-Type: application/json 
+Authorization: Token 365a45330a0b9bb3d52e23fb140f3c7fe71bad221f20df6bb3d271a66e754f9c
+
+{}
+
+###
